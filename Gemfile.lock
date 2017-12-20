@@ -1,0 +1,51 @@
+GIT
+  remote: git://github.com/longnh92/telegram-rb.git
+  revision: 6a40e55e2011948617306e9fc2aef9c16c5e2004
+  specs:
+    telegram-rb (0.1.0)
+      em-http-request
+      em-synchrony
+      eventmachine
+      fastimage
+      oj
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.5.2)
+      public_suffix (>= 2.0.2, < 4.0)
+    byebug (9.1.0)
+    cookiejar (0.3.3)
+    em-http-request (1.1.5)
+      addressable (>= 2.3.4)
+      cookiejar (!= 0.3.1)
+      em-socksify (>= 0.3)
+      eventmachine (>= 1.0.3)
+      http_parser.rb (>= 0.6.0)
+    em-socksify (0.3.1)
+      eventmachine (>= 1.0.0.beta.4)
+    em-synchrony (1.0.6)
+      eventmachine (>= 1.0.0.beta.1)
+    eventmachine (1.2.5)
+    fastimage (2.1.1)
+    http_parser.rb (0.6.0)
+    oj (3.3.9)
+    public_suffix (3.0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  byebug
+  em-http-request (~> 1.1, >= 1.1.5)
+  em-synchrony (~> 1.0, >= 1.0.6)
+  eventmachine
+  fastimage (~> 2.1)
+  oj
+  telegram-rb!
+
+RUBY VERSION
+   ruby 2.4.1p111
+
+BUNDLED WITH
+   1.16.0
